@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://youtube-clone-microservice.onrender.com";
+const BASE_URL = "https://youtube-clone-microservice.onrender.com/api/youtube";
 
 const fetchFromAPI = async (item, type) => {
   try {
